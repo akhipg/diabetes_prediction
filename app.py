@@ -63,7 +63,7 @@ st.write(user_data)
 
 
 # MODEL
-rf  = RandomForestClassifier()
+rf  = RandomForestClassifier(n_estimators=300, bootstrap = True, max_features = 'sqrt')
 rf.fit(x_train, y_train)
 user_result = rf.predict(user_data)
 
