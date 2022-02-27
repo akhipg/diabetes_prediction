@@ -30,13 +30,13 @@ x_train, x_test, y_train, y_test = train_test_split(x,y, test_size = 0.2, random
 # FUNCTION
 def user_report():
   pregnancies = st.sidebar.slider('Pregnancies', 0,17, 3 )
-  glucose = st.sidebar.slider('Glucose', 0,200, 120 )
-  bp = st.sidebar.slider('Blood Pressure', 0,122, 70 )
-  skinthickness = st.sidebar.slider('Skin Thickness', 0,100, 20 )
-  insulin = st.sidebar.slider('Insulin', 0,846, 79 )
-  bmi = st.sidebar.slider('BMI', 0,67, 20 )
-  dpf = st.sidebar.slider('Diabetes Pedigree Function', 0.0,2.4, 0.47 )
-  age = st.sidebar.slider('Age', 21,88, 33 )
+  glucose = st.sidebar.slider('Glucose', 0,200, 78 )
+  bp = st.sidebar.slider('Blood Pressure', 0,122, 50 )
+  skinthickness = st.sidebar.slider('Skin Thickness', 0,100, 32 )
+  insulin = st.sidebar.slider('Insulin', 0,846, 88 )
+  bmi = st.sidebar.slider('BMI', 0,67, 31 )
+  dpf = st.sidebar.slider('Diabetes Pedigree Function', 0.0,2.4, 0.248 )
+  age = st.sidebar.slider('Age', 21,88, 26 )
 
   user_report_data = {
       'pregnancies':pregnancies,
