@@ -6,3 +6,4 @@ scikit-learn
 pandas
 seaborn
 Pillow
+click==8.0
